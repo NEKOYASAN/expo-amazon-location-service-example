@@ -8,6 +8,7 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "platforms": ["ios", "android"],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "me.nekoyasan.ExpoAmazonLocationServiceExample",
@@ -19,11 +20,6 @@
         "backgroundColor": "#ffffff"
       },
       "package": "me.nekoyasan.ExpoAmazonLocationServiceExample"
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
       "expo-router",
