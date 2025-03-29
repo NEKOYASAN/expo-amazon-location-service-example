@@ -9,13 +9,16 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "me.nekoyasan.ExpoAmazonLocationServiceExample",
+      "appleTeamId": "R96BND8XN4"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "me.nekoyasan.ExpoAmazonLocationServiceExample"
     },
     "web": {
       "bundler": "metro",
